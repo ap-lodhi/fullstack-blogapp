@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-
+import Button from '@mui/material/Button';
 
 const Blog =()=>{
 
@@ -40,7 +40,8 @@ const Blog =()=>{
             </div>
         ))
       }
-
+   <Button  variant="contained"  style={{height:"50px", color:"white",backgroundColor:"darkgreen",marginTop:"6px"}} > <h4>UPDATE</h4></Button>
+            <Button  variant="contained"  style={{height:"50px", color:"white",backgroundColor:"darkgreen",marginTop:"6px"}}> <h4>DELETE</h4></Button>
         
         </>
     )
