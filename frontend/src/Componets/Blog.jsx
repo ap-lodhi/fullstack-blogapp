@@ -24,7 +24,7 @@ const Blog =()=>{
             ALL Blog Are Here...  
         </h1>
         <div style={{display:"flex" , justifyContent:"space-around",width:"80%",margin:"20px auto"}}>
-            <h1>Title</h1>
+            <h1 >Title</h1>
             <h1>category</h1>
             <h1>author</h1>
             <h1>content</h1>
@@ -33,10 +33,10 @@ const Blog =()=>{
         data?.map((el)=>(
            
             <div style={{border:"1px solid #cecece" , display:"flex" , justifyContent:"space-around",width:"80%",margin:"20px auto"}}>
-                <p>{el.title}</p>
-                <p>{el.category}</p>
-                <p>{el.author}</p>
-                <p style={{border:"1px solid red",textAlign:"center"}}>{el.content}</p>
+                < p style={{color:"purple"}}>{el.title}</p>
+                <p style={{color:"purple"}}>{el.category}</p>
+                <p style={{color:"purple"}}>{el.author}</p>
+                <p style={{color:"purple"}}>{el.content}</p>
             </div>
         ))
       }
